@@ -26,8 +26,8 @@ public class Prim {
 	}
 	
 	private void initializePrim(Graph graph) {
-		this.adjacencyMatrix = graph.adjacencyMatrix;
-		this.vertices = adjacencyMatrix.length;
+		this.adjacencyMatrix = graph.getAdjacencyMatrix();
+		this.vertices = graph.getVertices();
 		path = new int[vertices];
 		weight = new int[vertices];
 		visited = new boolean[vertices];
