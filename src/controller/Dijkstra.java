@@ -2,7 +2,7 @@ package controller;
 
 import model.Graph;
 
-public class Dijkstra {
+public class Dijkstra { 
 
 	private int vertices;
 	private int[][] adjacencyMatrix;
